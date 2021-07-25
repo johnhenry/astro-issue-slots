@@ -1,0 +1,15 @@
+<!-- Example: MyComponent.astro -->
+<div id="my-component">
+  <header>
+    <!-- children with the `slot="header"` attribute will go here -->
+    <slot name="header" />
+  </header>
+  <main>
+    <!-- children without a `slot` (or with the `slot="default"`) attribute will go here -->
+    <slot />
+  </main>
+  <footer>
+    <!-- children with the `slot="footer"` attribute will go here -->
+    <slot name="footer" />
+  </footer>
+</div>

@@ -1,0 +1,10 @@
+---
+import MyComponent from "../components/MyComponent.astro";
+import FooterComponent from "../components/FooterComponent.astro";
+---
+<!-- Usage -->
+<MyComponent>
+  <h1 slot="header">Hello world!</h1>
+  <p>Lorem ipsum ...</p>
+  <FooterComponent slot="footer" />
+</MyComponent>
